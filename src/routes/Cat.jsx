@@ -38,6 +38,9 @@ export const dataLoader = async () => {
   return cat.url;
 };
 
+
+
+
 /*
 export default function Cat() {
   return (

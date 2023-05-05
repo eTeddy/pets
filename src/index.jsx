@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Route,
   Link,
@@ -13,6 +13,11 @@ import Home from "./routes/Home";
 import Reports from "./routes/Reports";
 import Navbar from "./components/Navbar";
 import "./App.css";
+
+/* Pages */
+import Cat from "./routes/Cat";
+import Dog from "./routes/Dog";
+import Fox from "./routes/Fox";
 
 const AppLayout = () => (
   <>
@@ -31,7 +36,7 @@ const AppLayout = () => (
 //   )
 // );
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <AppLayout />,
     children: [
@@ -40,12 +45,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "products",
-        element: <Products />,
+        path: "cat",
+        element: <Cat />,
       },
       {
-        path: "reports",
-        element: <Reports />,
+        path: "dog",
+        element: <Dog />,
+      },
+      {
+        path: "fox",
+        element: <Fox />,
       },
     ],
   },
