@@ -118,15 +118,15 @@ span {
 /* KC */
 main {
   background: #a1b88d;
-  min-height: 90vh;
+  min-height: 100vh;
   margin-top: 0;
   padding: 10px 0 50px 0;
+  gap: 10px;  
   display: flex;
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  gap: 10px;
-  position: relative;
+  position: relative;  
 }
 
 button {
