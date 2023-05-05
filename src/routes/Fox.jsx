@@ -6,7 +6,7 @@ export default function Fox() {
   
   return (
     <main>
-      <button onClick={newnum}>New 🦊 Fox</button>					
+      <button onClick={newnum}>Click 🦊 Me</button>					
 			<img src={`https://randomfox.ca/images/${num}.jpg`} alt="fox" />        
       <div className="a">
         <a href="https://randomfox.ca/" target="_blank">Random Fox</a>
