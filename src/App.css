@@ -35,8 +35,9 @@
   font-size: 3rem;  
 }
 
+/* Sidebar Menu */
 .nav-menu {
-  background-color: #c3d3b2;
+  background: #c3d3b2;
   color: #445942;
   width: 100px;
   height: 100vh;
@@ -46,6 +47,8 @@
   top: 0;
   left: -100%;
   transition: 850ms;
+  /* z-index */
+  z-index:10
 }
 
 .nav-menu.active {
@@ -93,6 +96,7 @@
   width: 100%;
 }
 
+/* Hamburger and X */
 .navbar-toggle {
   background-color: #445942;
   width: 100%;
@@ -111,7 +115,7 @@ span {
 /* KC */
 main {
   background: #a1b88d;
-  height: 100vh;
+  min-height: 100vh;
   margin-top: 0;
   padding: 20px 0 100px 0;
   display: flex;
@@ -121,6 +125,7 @@ main {
   gap: 20px;
   position: relative;
 }
+
 button {
   background: #dad2ba;
   color: #445942;
@@ -129,24 +134,28 @@ button {
   font-size: larger;
   font-weight: bold;
 }
+
 button:hover {
   background: #445942;
   color: #dad2ba;
 }
+
 img {
   width: 90%;
   border: #445942 5px solid;
   border-radius: 10px;
 }
+
 .a {    
   background: #445942;
-  position: absolute;
   text-align: center;
   bottom: 0;
   padding: 10px;
   margin: 0;
   width: 100%;
+  position: absolute;
 }
+
 main a {
    color: #dad2ba; 
 }
