@@ -3,15 +3,11 @@ import { createRoot } from "react-dom/client";
 import {
   createHashRouter,
   RouterProvider,
-  Route,
-  Link,
   Outlet,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Home from "./routes/Home";
-import About from "./routes/About";
-import Contact from "./routes/Contact";
 import ErrorPage from "./routes/ErrorPage";
 
 /* Pages */
