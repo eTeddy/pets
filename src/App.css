@@ -7,7 +7,7 @@
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.home,
+/* .home,
 .reports,
 .products {
   background: #a1b88d;
@@ -17,15 +17,15 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
+} */
 
-/* Navbar CSS */
+/* Top Ssection with Hambuger */
 .navbar {
   background-color: #445942;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 10vh;
+  height: auto;
 }
 
 .menu-bars {
@@ -103,7 +103,7 @@
   width: 100%;
   height: auto;
   margin: 0;
-  padding: 5px 0 5px 0;
+  padding: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -120,7 +120,7 @@ main {
   background: #a1b88d;
   min-height: 90vh;
   margin-top: 0;
-  padding: 20px 0 100px 0;
+  padding: 20px 0 70px 0;
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -134,7 +134,7 @@ button {
   color: #445942;
   width: 90%;
   padding: 5px;
-  font-size: larger;
+  font-size: xx-large;
   font-weight: bold;
 }
 
