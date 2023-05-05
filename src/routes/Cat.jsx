@@ -23,8 +23,10 @@ export default function Cat() {
   return (
     <main>
       <button onClick={handleNewCatClick}>Click 😺 Me</button>      
-      <img src={`https://cataas.com${catUrl}`} alt="Cat" />     
-      <a className="a" href="https://cataas.com/" target="_blank">CATAAS</a>
+      <img src={`https://cataas.com${catUrl}`} alt="Cat" /> 
+      <div className="a">
+        <a href="https://cataas.com/" target="_blank">CATAAS</a>
+      </div>    
     </main>    
   );
 };
