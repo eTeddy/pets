@@ -166,6 +166,7 @@ main a {
 
 /* Eye */
 .eye {
+  margin: 0;
+  padding: 0 auto 0 auto;
   font-size: 18em;
-  padding: auto;
 }
