@@ -1,8 +1,8 @@
 function Eye() {
   return (
     <main>
+      <h1>Namaste!</h1>      
       <span className="eye">🪬</span>      
-      <h1>Namaste!</h1>
     </main>
   );
 }
