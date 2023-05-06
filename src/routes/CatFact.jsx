@@ -35,9 +35,7 @@ export default function CatFact() {
         onMouseLeave={handleCat}>
           Click <span role="img" aria-label="cat">{cat}</span> Me
       </button> 
-      <p>~~~~~~~~~~~~~~~~~~~~</p>     
-      <h2>Did you know?</h2>           
-      <p>~~~~~~~~~~~~~~~~~~~~</p>        
+      <h1 className='h1'>Did you know?</h1>                   
       <div className="cat_fact">{fact}</div>         
       <div className="a">
         <a href="https://catfact.ninja/" target="_blank">Cat Facts</a>

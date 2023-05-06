@@ -167,6 +167,12 @@ main a {
 /* Eye */
 .eye {
   margin: 0;
-  padding: auto;
+  padding: 0;
   font-size: 15em;
+}
+.h1 {
+  margin: 10px;
+  padding: 5px;
+  border-top: #445942 3px dotted;
+  border-bottom: #445942 3px dotted;
 }
