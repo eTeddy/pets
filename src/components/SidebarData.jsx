@@ -29,14 +29,14 @@ export const SidebarData = [
   },
   {
     title: "",
-    path: "/messages",
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    path: "/cat_fact",
+    icon: '🐈‍⬛',
     cName: "nav-text",
   },
   {
     title: "",
-    path: "/support",
-    icon: <IoIcons.IoMdHelpCircle />,
+    path: "/eye",
+    icon: '🪬',
     cName: "nav-text",
   },
 ];

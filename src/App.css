@@ -147,3 +147,25 @@ img {
 main a {
    color: #dad2ba; 
 }
+
+/* Cat Fact*/
+.cat_fact {
+  background: #dad2ba;
+  color: #445942;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 30px 10px 10px 30px;
+  text-align: left;
+  border-right: 5px solid #445942;
+  border-left: 20px solid #445942;
+  font-size: x-large;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 0 #333333, 0 5px 5px 0 #333333;
+}
+
+/* Eye */
+.eye {
+  font-size: 20em;
+  padding: auto;
+}

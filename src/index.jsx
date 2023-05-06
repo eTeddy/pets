@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import Products from "./routes/Products";
 import Home from "./routes/Home";
-import Reports from "./routes/Reports";
+import Reports from "./routes/Eye";
 import Navbar from "./components/Navbar";
 import "./App.css";
 
@@ -18,6 +18,8 @@ import "./App.css";
 import Cat from "./routes/Cat";
 import Dog from "./routes/Dog";
 import Fox from "./routes/Fox";
+import CatFact from "./routes/CatFact";
+import Eye from "./routes/Eye";
 
 const AppLayout = () => (
   <>
@@ -55,6 +57,14 @@ const router = createHashRouter([
       {
         path: "fox",
         element: <Fox />,
+      },
+      {
+        path: "cat_fact",
+        element: <CatFact />,
+      },
+      {
+        path: "eye",
+        element: <Eye />,
       },
     ],
   },
