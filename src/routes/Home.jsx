@@ -18,9 +18,7 @@ function Home() {
       <p>HTML, CSS, JavaScript, JSX, APIs, Vite, React & 🧡</p>
       <p>-----------------------------------</p>
       <p>Minimalist @ May 2023</p>
-      <a href="https://www.worldflagcounter.com/details/iuN">
-        <img src="https://www.worldflagcounter.com/iuN/" alt="Flag Counter" />
-      </a>
+      <a href="https://www.worldflagcounter.com/details/iuP"><img src="https://www.worldflagcounter.com/iuP/" alt="Flag Counter"></a>
     </main>
   )
 }
