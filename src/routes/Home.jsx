@@ -22,8 +22,9 @@ function Home() {
       </p>
       <p>--------------------------------</p>    
       <a href="https://www.worldflagcounter.com/details/iuP"><img src="https://www.worldflagcounter.com/iuP/" alt="Flag Counter" /></a>
-      <p>--------------------------------</p>
-      <p>Minimalist 🧡 May 2023</p>   
+      <div className="a">
+        <p className="a_p">Minimalist 🧡 May 2023</p>   
+      </div>  
     </main>
   )
 }

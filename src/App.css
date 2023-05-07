@@ -148,6 +148,7 @@ main a {
    color: #dad2ba; 
 }
 
+
 /* Cat Fact*/
 .cat_fact {
   background: #dad2ba;
@@ -177,11 +178,9 @@ main a {
   border-bottom: #445942 3px dotted;
 }
 
-/* Anime */
-.anime_img_container {
-
-}
-
 p {
   line-height: 150%;
+}
+.a_p {
+  color: #dad2ba;
 }
