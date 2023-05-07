@@ -16,6 +16,10 @@ function Home() {
       <p>-----------------------------------</p>
       <h1>🧡</h1>
       <p>Minimalist @ May 2023</p>
+      <a href="https://www.worldflagcounter.com/details/iuN">
+        <img src="https://www.worldflagcounter.com/iuN/" alt="Flag Counter">
+
+      </a>
     </main>
   )
 }
