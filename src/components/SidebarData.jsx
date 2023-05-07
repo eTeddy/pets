@@ -11,6 +11,12 @@ export const SidebarData = [
   },
   {
     title: "",
+    path: "/anime",
+    icon: '👱‍♀️',
+    cName: "nav-text",
+  },
+  {
+    title: "",
     path: "/cat",
     icon: '😺',
     cName: "nav-text",

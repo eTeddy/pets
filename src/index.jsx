@@ -20,6 +20,7 @@ import Dog from "./routes/Dog";
 import Fox from "./routes/Fox";
 import CatFact from "./routes/CatFact";
 import Eye from "./routes/Eye";
+import Anime from "./routes/Anime";
 
 const AppLayout = () => (
   <>
@@ -45,6 +46,10 @@ const router = createHashRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "anime",
+        element: <Anime />,
       },
       {
         path: "cat",
