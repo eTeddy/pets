@@ -169,7 +169,6 @@ main a {
   font-size: x-large;
   font-weight: bold;
   box-shadow: 5px 5px 5px 0 #445942, 0 5px 5px 0 #445942;
-/*   box-shadow: 5px 5px 5px 0 #333333, 0 5px 5px 0 #333333; */
 }
 
 /* Eye */
@@ -177,6 +176,7 @@ main a {
   margin: 0;
   padding: 0;
   font-size: 15em;
+  box-shadow: none;
 }
 .h1 {
   margin: 10px;
