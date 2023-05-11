@@ -129,11 +129,13 @@ button:hover {
 }
 
 img {
-  width: 90%;
+  width: 270px;
   border: #445942 5px solid;
   border-radius: 10px;
+  box-shadow: 5px 5px 8px #3d1c00;
 }
 
+/* Footer */
 .a {    
   background: #445942;
   text-align: center;
@@ -146,6 +148,10 @@ img {
 
 main a {
    color: #dad2ba; 
+}
+
+.a_p {
+  color: #dad2ba;
 }
 
 
@@ -180,7 +186,4 @@ main a {
 
 p {
   line-height: 150%;
-}
-.a_p {
-  color: #dad2ba;
 }
