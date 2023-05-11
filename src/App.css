@@ -132,7 +132,7 @@ img {
   width: 270px;
   border: #445942 5px solid;
   border-radius: 10px;
-  box-shadow: 5px 5px 8px #3d1c00;
+  box-shadow: 5px 5px 8px #445942;
 }
 
 /* Footer */
@@ -168,7 +168,8 @@ main a {
   border-left: 20px solid #445942;
   font-size: x-large;
   font-weight: bold;
-  box-shadow: 5px 5px 5px 0 #333333, 0 5px 5px 0 #333333;
+  box-shadow: 5px 5px 5px 0 #445942, 0 5px 5px 0 #445942;
+/*   box-shadow: 5px 5px 5px 0 #333333, 0 5px 5px 0 #333333; */
 }
 
 /* Eye */
