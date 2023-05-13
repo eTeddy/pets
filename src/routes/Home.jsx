@@ -22,8 +22,12 @@ function Home() {
       </p>
       <p>--------------------------------</p>   
       <a href="https://eteddy.github.io/" target="_blank">My Portfolio</a>
+
       <p>--------------------------------</p>   
-      <a href="https://www.worldflagcounter.com/details/iuP"><img src="https://www.worldflagcounter.com/iuP/" alt="Flag Counter" /></a>
+      <a href="https://www.worldflagcounter.com/details/iyh" target="_blank">
+        <img src="https://www.worldflagcounter.com/iyh/" alt="Flag Counter" />
+      </a>
+      
       <div className="a">
         <p className="a_p">Minimalist 🧡 May 2023</p>   
       </div>  
