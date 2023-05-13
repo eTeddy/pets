@@ -21,7 +21,7 @@ function Home() {
         APIs, Vite & React!
       </p>
       <p>--------------------------------</p>   
-      <a href="https://eteddy.github.io/" target="_blank">My Portfolio</a>
+      <a class="fun" href="https://eteddy.github.io/" target="_blank">Fun Projects</a>
 
       <p>--------------------------------</p>   
       <a href="https://www.worldflagcounter.com/details/iyh" target="_blank">
